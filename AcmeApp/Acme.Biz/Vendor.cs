@@ -10,7 +10,7 @@ namespace Acme.Biz
     /// <summary>
     /// Manages the vendors from whom we purchase our inventory.
     /// </summary>
-    public class Vendor 
+    public class Vendor
     {
         public int VendorId { get; set; }
         public string CompanyName { get; set; }
@@ -25,8 +25,8 @@ namespace Acme.Biz
             var emailService = new EmailService();
             var subject = "Hello" + this.CompanyName;
             var confirmation = emailService.SendMessage(subject,
-                                                        message, 
-                                                        this.Email);
+                message,
+                this.Email);
             return confirmation;
         }
     }

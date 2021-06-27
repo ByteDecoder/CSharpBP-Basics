@@ -25,6 +25,7 @@ namespace Acme.Biz
                 vendor.CompanyName = "ABC Corp";
                 vendor.Email = "abc@abc.com";
             }
+
             return vendor;
         }
 

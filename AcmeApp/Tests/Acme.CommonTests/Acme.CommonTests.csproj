@@ -6,8 +6,8 @@
     <ProjectGuid>{811EE95C-ED43-4601-BFAB-E75B41FD263A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Acme.CommonTests</RootNamespace>
-    <AssemblyName>Acme.CommonTests</AssemblyName>
+    <RootNamespace>Acme.Common.Tests</RootNamespace>
+    <AssemblyName>Acme.Common.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

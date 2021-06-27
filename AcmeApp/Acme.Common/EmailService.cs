@@ -18,8 +18,8 @@ namespace Acme.Common
         /// <param name="message">Message text</param>
         /// <param name="recipient">Email address of the message recipient.</param>
         /// <returns></returns>
-        public string SendMessage(string subject, string message, 
-                                  string recipient)
+        public string SendMessage(string subject, string message,
+            string recipient)
         {
             // Code to send an email
 
@@ -28,6 +28,5 @@ namespace Acme.Common
             loggingService.LogAction(confirmation);
             return confirmation;
         }
-
     }
 }
